@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> P(1)O(2)N(3)T(4) </title>
+    <link rel="stylesheet" href="style 2.css">
+
+    <header class="top-bar">
+  <h2> P(1)O(2)N(3)T(4) </h2>
+  <a href="index.html" class="home-link">Terug</a>
+</header>
+
+</head>
+
+<body>
+
+<div class="container">
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Ka6EeOEtURs?si=0TVoA0epVVDL8PIo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  
+  <div class="tekst-vak">
+
+   <p>  P(1)O(2)N(3)T(4) 
+</p>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; <span id="copyright-jaar"></span> Citrus - Raul Fernandes</p>
+</footer>
+
+<script>
+  const vandaag = new Date();
+  
+  // Formatteer de datum naar de Nederlandse standaard
+  const opties = { day: 'numeric', month: 'long', year: 'numeric' };
+  const datumGeformatteerd = vandaag.toLocaleDateString('nl-NL', opties);
+
+  document.getElementById("copyright-jaar").textContent = datumGeformatteerd;
+</script>
+
+
+
+
+
+</body>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citrus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <span class="name">Citrus by Raul Fernandes</span>
+        <span>Filmmaker, kunstenaar</span>
+    </header>
+
+    <main class="grid-container">
+        
+        <section>
+            <h2>Video</h2>
+            <ul>
+                <li><a href="project1.html">Inflaçao <span class="detail">2024</span></a></li>
+                <li><a href="project2.html">Datura <span class="detail">2024</span></a></li>
+                <li><a href="project3.html">Sydney XP <span class="detail">2024</span></a></li>
+                <li><a href="project4.html">128-132 <span class="detail">2024</span></a></li>
+                <li><a href="project5.html">Broken <span class="detail">2024</span></a></li>
+                <li><a href="project6.html">Separable Gelatinous Pellicle <span class="detail">2024</span></a></li>
+                <li><a href="project7.html">In the Bookshop <span class="detail">2024</span></a></li>
+                <li><a href="project8.html">P(1)O(2)N(3)T(4) <span class="detail">2024</span></a></li>
+                <li><a href="project9.html">Untitled <span class="detail">2024</span></a></li>
+                <li><a href="project10.html">Wat zit er in uw tas? <span class="detail">2024</span></a></li>
+                <li><a href="project11.html">Kapseis <span class="detail">2024</span></a></li>
+
+
+
+            </ul>
+        </section>
+
+        <section>
+            <h2>Installatie</h2>
+            <ul>
+                <li><a href="#">3x3 Video wall</a></li>
+                <li><a href="#">Mispunt</a></li>
+                <li><a href="#">"The Waltz had arrived and the Waltz did not go away"</a></li>
+                <li><a href="#">8d Ambient room</a></li>
+                <li><a href="#">Untitled-2</a></li>
+                <li><a href="#">Installatie ADE</a></li>
+
+
+            </ul>
+        </section>
+
+        <section>
+            <h2>Fotografie</h2>
+            <ul>
+                <li><a href="#">Gold Medal <span class="detail">2024</span></a></li>
+                <li><a href="#">Mention <span class="detail">2023</span></a></li>
+                <li><a href="#">Feature i-D</a></li>
+            </ul>
+        </section>
+
+         <section>
+            <h2>Performance</h2>
+            <ul>
+                <li><a href="#">Motomatrix<span class="detail">2024</span></a></li>
+                <li><a href="#">Soepsiphus<span class="detail">2024</span></a></li>
+                <li><a href="#">Citrus at Draadloos<span class="detail">2025</span></a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Over</h2>
+            <ul>
+                <li><a href="https://instagram.com" target="_blank">Artist Statement</a></li>
+            </ul>
+        </section>
+
+         <section>
+            <h2>Contact</h2>
+            <ul>
+                <p>Raulfernandes2102@gmail.com</p>
+            </ul>
+        </section>
+
+    </main>
+
+<footer>
+  <p>&copy; <span id="copyright-jaar"></span> Citrus - Raul Fernandes</p>
+</footer>
+
+<script>
+  const vandaag = new Date();
+  
+  // Formatteer de datum naar de Nederlandse standaard
+  const opties = { day: 'numeric', month: 'long', year: 'numeric' };
+  const datumGeformatteerd = vandaag.toLocaleDateString('nl-NL', opties);
+
+  document.getElementById("copyright-jaar").textContent = datumGeformatteerd;
+</script>
+
+</body>
+</html>
