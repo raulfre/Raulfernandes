@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In de tas met de tas</title>
+    <link rel="stylesheet" href="style 2.css">
+
+    <header class="top-bar">
+  <h2>In de tas met de tas</h2>
+  <a href="index.html" class="home-link">Terug</a>
+</header>
+
+</head>
+
+<body>
+
+<div class="container">
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/pMleiK-Qzqw?si=LEMlqcYyC9tCIubp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  
+  <div class="tekst-vak">
+
+   <p> Taalkundige reportage over het verschil in de betekenis van het woord 'tas' in Noord-Brabant en Antwerpen.
+</p>
+
+  </div>
+</div>
+
+<footer>
+  <p>&copy; <span id="copyright-jaar"></span> Citrus - Raul Fernandes</p>
+</footer>
+
+<script>
+  const vandaag = new Date();
+  
+  // Formatteer de datum naar de Nederlandse standaard
+  const opties = { day: 'numeric', month: 'long', year: 'numeric' };
+  const datumGeformatteerd = vandaag.toLocaleDateString('nl-NL', opties);
+
+  document.getElementById("copyright-jaar").textContent = datumGeformatteerd;
+</script>
+
+
+
+
+
+</body>
