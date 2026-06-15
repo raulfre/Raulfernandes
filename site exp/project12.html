@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesjonkele</title>
+    <link rel="stylesheet" href="style 2.css">
+<!-- De standaard favicon voor de meeste browsers -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <!-- Optioneel: Voor Apple apparaten (als men de site op het homescherm zet) -->
+    <link rel="apple-touch-icon" href="favicon.png">
+    <header class="top-bar">
+  <h2>Pesjonkele</h2>
+  <a href="index.html" class="home-link">Terug</a>
+  
+</header>
+
+</head>
+
+<body>
+<div class="background"></div>
+<div class="container">
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/m8qsimO-kN4?si=zMAAjzot55Wv45w6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <div class="tekst-vak">
+
+   <p> Een reportage gericht op de betekenis van het woord 'pesjonkele'. Dit is een Tilburgs woord wat afgeleid is van 'Portiuncula', de kapel van Sint Franciscus van Assisi. Het woord betekent de kerk in- en uit lopen, dit is een traditie waarop je 1 dag per jaar zo veel mogelijk aflaten kon verdienen. Tegenwoordig is de betekenis verschoven naar kroeglopen, kroeg in- kroeg uit. Deze video bestudeerd deze twee visies en zet ze tegenover elkaar.
+
+</p>
+  </div>
+</div>
+
+<footer>
+  <p><span id="copyright-jaar"></span> Citrus - Raul Fernandes</p>
+</footer>
+
+<script>
+  const vandaag = new Date();
+  
+  // Formatteer de datum naar de Nederlandse standaard
+  const opties = { day: 'numeric', month: 'long', year: 'numeric' };
+  const datumGeformatteerd = vandaag.toLocaleDateString('nl-NL', opties);
+
+  document.getElementById("copyright-jaar").textContent = datumGeformatteerd;
+</script>
+
+
+
+
+
+</body>
